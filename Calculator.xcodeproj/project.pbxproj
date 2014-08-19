@@ -112,11 +112,10 @@
 		471BDD7019A245FB00A9FFBA /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				471BDD9F19A3C25D00A9FFBA /* Controller */,
 				471BDD7919A245FB00A9FFBA /* AppDelegate.h */,
 				471BDD7A19A245FB00A9FFBA /* AppDelegate.m */,
 				471BDD7C19A245FB00A9FFBA /* Main.storyboard */,
-				471BDD7F19A245FB00A9FFBA /* ViewController.h */,
-				471BDD8019A245FB00A9FFBA /* ViewController.m */,
 				471BDD8219A245FB00A9FFBA /* Images.xcassets */,
 				471BDD7119A245FB00A9FFBA /* Supporting Files */,
 			);
@@ -150,6 +149,15 @@
 				471BDD9219A245FB00A9FFBA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		471BDD9F19A3C25D00A9FFBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				471BDD7F19A245FB00A9FFBA /* ViewController.h */,
+				471BDD8019A245FB00A9FFBA /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +464,7 @@
 				471BDD9B19A245FB00A9FFBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471BDD9C19A245FB00A9FFBA /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				471BDD9E19A245FB00A9FFBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

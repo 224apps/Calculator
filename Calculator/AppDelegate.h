@@ -1,10 +1,10 @@
-//
-//  AppDelegate.h
-//  Calculator
-//
+/********************************************************/
+//  Class: AppDelegate.h
+//  Name: Calculator
 //  Created by A. Diallo on 8/18/14.
-//  Copyright (c) 2014 Remote Tiger. All rights reserved.
-//
+//  Copyright (c) 2014 DiariConnect. All rights reserved.
+/********************************************************/
+
 
 #import <UIKit/UIKit.h>
 
